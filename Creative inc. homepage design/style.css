@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-image: url(img/hero-bg.jpg);
+  color: white;
+  padding-bottom: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+header nav ul li a {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+header nav ul li a:hover {
+  color: #00ff6c;
+}
+
+.top-heading {
+  text-align: center;
+  margin-top: 4em;
+  font-size: 2.1rem;
+}
+
+.sub-heading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.work-button {
+  position: relative;
+  left: 40%;
+  margin: 4rem auto;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  font-weight: 800;
+  background-color: transparent;
+  border: 2px solid #00ff6c;
+  color: #00ff6c;
+  cursor: pointer;
+}
+
+.work-button:hover {
+  color: white;
+}
+
+.who-we {
+  width: 60%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 5rem;
+}
+
+.who-we-are {
+  position: absolute;
+  width: 35%;
+  max-width: 35%;
+  background-color: rgb(44, 33, 33);
+  padding: 1rem 3rem;
+  top: 75%;
+  left: 7%;
+  padding-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.who-we-are h1 {
+  text-align: center;
+  padding: 0.5em;
+  color: #00ff6c;
+}
+
+.inside-who {
+  text-align: justify;
+  border: 5px solid #00ff6c;
+  padding: 1.5em;
+  color: white;
+}
+.inside-para {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.work-heading {
+  text-align: center;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgb(28, 56, 10);
+  padding-bottom: 1rem;
+}
+
+.some-head {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #00ff6c;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.work {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.min-container {
+  color: white;
+  background-color: #00ff6c;
+  padding: 3.5rem 0rem;
+}
+
+.lower-head {
+  margin-top: 0%;
+}
+
+.button-hire {
+  background-color: transparent;
+  border: 3px solid rgb(44, 33, 33);
+  color: rgb(44, 33, 33);
+  margin: 2rem 0rem;
+}
+
+.button-hire:hover {
+  color: white;
+}
+
+.end-container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(44, 33, 33);
+  padding: 5rem;
+}
+
+.end-container p {
+  max-width: 25rem;
+  text-align: justify;
+  padding: 0.5rem 0rem;
+}
+
+.end-container ul li {
+  list-style: none;
+}
+.end-container ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 0rem;
+}
+
+.end-container ul li a:hover {
+  color: #00ff6c;
+}
