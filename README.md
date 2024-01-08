@@ -7,7 +7,7 @@
      https://nmn-yd.github.io/Mini-Projects-Collection/Magic-wrap/  
      
 ### 2. Pricing-Page :
-     https://nmn-yd.github.io/Mini-Projects-Collection/Magic-wrap/   
+       
      
 ### 2. HuckleBerry :
-     https://nmn-yd.github.io/Mini-Projects-Collection/Magic-wrap/       
+     https://nmn-yd.github.io/Mini-Projects-Collection/huckleberry-main/       
