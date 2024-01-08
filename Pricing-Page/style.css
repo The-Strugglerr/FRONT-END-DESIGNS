@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #00a1ab;
+  font-weight: 900;
+  margin-top: 3em;
+}
+
+.sub-heading {
+  color: #4e4e4e;
+  font-size: 1.3125rem;
+  margin-bottom: 2.25rem;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: #4e4e4e;
+}
+
+.plan {
+  width: 20%;
+  padding: 1rem 3rem;
+  margin: 0 1rem;
+  background-color: #e5e3e8;
+  border-radius: 10px;
+}
+
+.plan-heading {
+  font-size: 1.1062rem;
+  text-transform: uppercase;
+  margin: 1rem 0rem;
+}
+
+.plan-price {
+  margin: 2rem 0rem;
+  color: #00a1ab;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 300;
+  display: block;
+}
+
+.plan-content {
+  margin: 2rem 0rem;
+  line-height: 1.5;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  background-color: #4e4e4e;
+  color: white;
+  font-weight: 700;
+  font-family: inherit;
+}
+.super-plan {
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  color: white;
+}
+
+.super-plan .plan-price {
+  color: inherit;
+}
+
+.super-plan .button {
+  background-color: white;
+  color: #4e4e4e;
+}
